@@ -1,0 +1,180 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "atlres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 日本語 (日本) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_JPN)
+LANGUAGE LANG_JAPANESE, SUBLANG_DEFAULT
+#pragma code_page(932)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""atlres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,0
+ PRODUCTVERSION 1,0,0,0
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x40004L
+ FILETYPE 0x0L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "041104b0"
+        BEGIN
+            VALUE "CompanyName", "dacci.org"
+            VALUE "FileDescription", "IP Calculator"
+            VALUE "FileVersion", "1.0.0.0"
+            VALUE "InternalName", "IPCalc.exe"
+            VALUE "LegalCopyright", "Copyright (c) 2016 dacci.org"
+            VALUE "OriginalFilename", "IPCalc.exe"
+            VALUE "ProductName", "IP Calculator"
+            VALUE "ProductVersion", "1.0.0.0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x411, 1200
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_MAIN DIALOGEX 0, 0, 177, 182
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | DS_CENTER | WS_MINIMIZEBOX | WS_CAPTION | WS_SYSMENU
+CAPTION "IPCalc"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CONTROL         "IP &address:",IDC_IPADDRESS_RADIO,"Button",BS_AUTORADIOBUTTON | WS_GROUP,7,8,53,10
+    CONTROL         "",IDC_IPADDRESS,"SysIPAddress32",WS_TABSTOP,73,7,98,12
+    CONTROL         "He&xadecimal:",IDC_HEX_RADIO,"Button",BS_AUTORADIOBUTTON,7,26,59,10
+    EDITTEXT        IDC_HEX,73,26,98,12,ES_RIGHT | ES_AUTOHSCROLL
+    CONTROL         "&Decimal:",IDC_DECIMAL_RADIO,"Button",BS_AUTORADIOBUTTON,7,46,43,10
+    EDITTEXT        IDC_DECIMAL,73,45,98,12,ES_RIGHT | ES_AUTOHSCROLL
+    CONTROL         "Net&mask:",IDC_NETMASK_RADIO,"Button",BS_AUTORADIOBUTTON | WS_GROUP,7,65,46,10
+    CONTROL         "",IDC_NETMASK,"SysIPAddress32",WS_TABSTOP,73,64,98,12
+    CONTROL         "&Prefix:",IDC_PREFIX_RADIO,"Button",BS_AUTORADIOBUTTON,7,86,37,10
+    EDITTEXT        IDC_PREFIX,73,85,40,12,ES_RIGHT | ES_AUTOHSCROLL | ES_NUMBER
+    CONTROL         "",IDC_PREFIX_SPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS | UDS_NOTHOUSANDS,119,85,11,12
+    CONTROL         "&Min. hosts:",IDC_HOSTS_RADIO,"Button",BS_AUTORADIOBUTTON,7,105,51,10
+    EDITTEXT        IDC_HOSTS,73,104,98,12,ES_RIGHT | ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "&Network:",IDC_STATIC,7,125,30,8
+    CONTROL         "",IDC_NETWORK,"SysIPAddress32",WS_TABSTOP,73,123,98,12
+    LTEXT           "&Broadcast:",IDC_STATIC,7,144,36,8
+    CONTROL         "",IDC_BROADCAST,"SysIPAddress32",WS_TABSTOP,73,142,98,12
+    DEFPUSHBUTTON   "Calculate",IDOK,51,161,56,14
+    PUSHBUTTON      "Clear",IDABORT,115,161,56,14
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_MAIN, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 170
+        VERTGUIDE, 66
+        VERTGUIDE, 73
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 175
+        HORZGUIDE, 19
+        HORZGUIDE, 26
+        HORZGUIDE, 38
+        HORZGUIDE, 45
+        HORZGUIDE, 57
+        HORZGUIDE, 64
+        HORZGUIDE, 76
+        HORZGUIDE, 85
+        HORZGUIDE, 97
+        HORZGUIDE, 104
+        HORZGUIDE, 116
+        HORZGUIDE, 123
+        HORZGUIDE, 135
+        HORZGUIDE, 142
+        HORZGUIDE, 154
+        HORZGUIDE, 161
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// AFX_DIALOG_LAYOUT
+//
+
+IDD_MAIN AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+#endif    // 日本語 (日本) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
